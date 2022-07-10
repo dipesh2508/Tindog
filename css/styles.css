@@ -157,6 +157,14 @@ h2{
         position: static;
         transform: rotate(0);
     }
+
+    p{
+        font-size: 150%;
+    }
+
+    .logo{
+        font-size: 200%;
+    }
 }
 
 @media (max-width: 1110px) {
