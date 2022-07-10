@@ -19,7 +19,8 @@ h2{
     background-color: #ff4c68;
     color: white;
     margin: auto;
-    overflow: hidden;
+    position: relative;
+    /* overflow: hidden; */
 }
 
 .container-fluid{
@@ -58,7 +59,7 @@ h2{
     width: 60%;
     transform: rotate(25deg);
     position: relative;
-    margin-bottom: -12rem;
+    /* margin-bottom: -12rem; */
     /* margin: 3rem auto 0 auto; */
 }
 
@@ -68,6 +69,11 @@ h2{
 #features{
     padding: 7% 15%;
     text-align: center;
+    background-color: white;
+    position: relative;
+    z-index: 1;
+    bottom: 13rem;
+    margin-bottom: -13rem;
 }
 
 .features-icons{
@@ -128,7 +134,7 @@ h2{
 
 #pricing{
     margin: 3rem;
-    padding: 2rem;
+    padding: 3rem;
 }
 
 .pricing-column{
@@ -138,4 +144,73 @@ h2{
 
 .btn-block{
     width: 100%;
+}
+
+@media (max-width: 1044px){
+
+    #title{
+        text-align: center;
+        
+    }
+
+    .Mobile{
+        position: static;
+        transform: rotate(0);
+    }
+}
+
+@media (max-width: 1110px) {
+    h1{
+        font-size: 1.8rem;
+    }
+    
+}
+
+@media (max-width: 1260px) {
+    h1{
+        font-size: 2.5rem;
+    }
+
+}
+
+
+/* cta */
+
+#cta{
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
+    padding-top: 2rem;
+}
+
+#cta-head{
+    font-weight: 900;
+}
+
+
+/* footer */
+
+#footer{
+    padding: 0;
+    margin-top: 2rem;
+
+}
+
+#footer-para{
+    margin: 0.3rem auto 2rem;
+    text-align: center;
+}
+
+.social{
+    text-align: center;
+    width: 100%;
+    
+}
+
+.logo{
+    padding: 0.3rem;
+}
+
+.logo:hover{
+    color:#ff4c68;
 }
