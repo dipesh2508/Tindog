@@ -125,3 +125,17 @@ h2{
     width: 15%;
     margin: 2rem 2rem 3rem 2rem;
 }
+
+#pricing{
+    margin: 3rem;
+    padding: 2rem;
+}
+
+.pricing-column{
+    padding: 2rem;
+    text-align: center;
+}
+
+.btn-block{
+    width: 100%;
+}
