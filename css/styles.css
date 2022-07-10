@@ -146,42 +146,6 @@ h2{
     width: 100%;
 }
 
-@media (max-width: 1044px){
-
-    #title{
-        text-align: center;
-        
-    }
-
-    .Mobile{
-        position: static;
-        transform: rotate(0);
-    }
-
-    p{
-        font-size: 150%;
-    }
-
-    .logo{
-        font-size: 200%;
-    }
-}
-
-@media (max-width: 1110px) {
-    h1{
-        font-size: 1.8rem;
-    }
-    
-}
-
-@media (max-width: 1260px) {
-    h1{
-        font-size: 2.5rem;
-    }
-
-}
-
-
 /* cta */
 
 #cta{
@@ -192,9 +156,13 @@ h2{
 }
 
 #cta-head{
-    font-weight: 900;
+    font-weight: bolder;
+    padding-top: 2rem;
 }
 
+.bottom-button{
+    margin:2rem 0.5rem 3rem;
+}
 
 /* footer */
 
@@ -221,4 +189,50 @@ h2{
 
 .logo:hover{
     color:#ff4c68;
+}
+
+
+/* media queries */
+
+@media (max-width: 1050px){
+
+    #title{
+        text-align: center;
+        
+    }
+
+    .collapse{
+        text-align: left;
+    }
+
+    .Mobile{
+        position: static;
+        transform: rotate(0);
+    }
+
+    p{
+        font-size: 150%;
+    }
+
+    .logo{
+        font-size: 200%;
+    }
+
+    em{
+        font-size: 130%;
+    }
+}
+
+@media (max-width: 1110px) {
+    h1{
+        font-size: 1.8rem;
+    }
+    
+}
+
+@media (max-width: 1260px) {
+    h1{
+        font-size: 2.5rem;
+    }
+
 }
