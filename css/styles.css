@@ -1,19 +1,16 @@
+/* html tags */
+
 body{
     font-family: 'Montserrat';
 }
 
-h1{
-    font-family: 'Montserrat';
-    font-weight: 900;
-    font-size: 3.5rem;
-    line-height: 1.5;
-}
 
-h2{
+h1, h2, h3, h4, h5, h6{
     font-family: 'Montserrat';
     font-weight: bold;
 }
 
+/* title section  */
 
 #title{
     background-color: #ff4c68;
@@ -32,12 +29,6 @@ h2{
     padding-bottom: 3rem;
 }
 
-/* Buttons */
-
-.download{
-    margin: 5% 3% 5% 0;
-}
-
 .navbar-brand{
     font-family: 'Ubuntu';
     font-size: 2.5rem;
@@ -46,12 +37,31 @@ h2{
 
 .nav-item{
     padding: 0 1rem;
+    text-align: left;
 }
 
 .nav-link{
     font-size: 1.2rem;
     font-weight: lighter;
 }
+
+
+/* Heading  */
+.main-heading{
+    font-family: 'Montserrat';
+    font-weight: 900;
+    font-size: 3.5rem;
+    line-height: 1.5;
+}
+
+/* Buttons */
+
+.download{
+    margin: 5% 3% 5% 0;
+    display: inline-block;
+}
+
+
 
 /* Title image */
 
@@ -223,16 +233,9 @@ h2{
     }
 }
 
-@media (max-width: 1110px) {
-    h1{
-        font-size: 1.8rem;
-    }
-    
-}
-
-@media (max-width: 1260px) {
-    h1{
+@media (max-width: 1200px) {
+    .main-heading{
         font-size: 2.5rem;
     }
-
+    
 }
